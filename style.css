@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Whisper;
+    src: url(fonts/Upright.otf) format("opentype")
+}
+@font-face {
+    font-family: Spark;
+    src: url(fonts/HelloSparkSans.ttf) format("opentype")
+}
+*{
+    font-family: Spark;
+}
