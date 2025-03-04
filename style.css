@@ -12,6 +12,13 @@
     font-family: Spark;
     transition: 0.8s;
 }
+
+a{
+    text-decoration: none;
+}
+
+/*main page */
+
 body{
     background-color: rgb(235, 204, 228);
 }
@@ -36,6 +43,13 @@ header{
 .title{
     font-family: "Climate Crisis", serif;
     font-size: 28px;
+    color: aliceblue;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 .title:hover{
     font-size: 30px;
@@ -299,4 +313,10 @@ footer{
 }
 .roboto{
     font-family: 'Roboto', serif;
+}
+
+/*stan list*/
+
+.blue-body{
+    background-color: #c7dfe5;
 }
