@@ -8,7 +8,7 @@
     src: url(fonts/HelloSparkSans.ttf) format("opentype")
 }
 
-*{
+body{
     font-family: Spark;
     transition: 0.8s;
 }
@@ -76,7 +76,8 @@ nav {
     border-radius: 12px;
     padding: 5px;
 }
-img{
+
+.logo{
     width: 50px;
     height: 50px;
 }
@@ -137,6 +138,22 @@ input[type="checkbox"] {
     .h-point:hover{
         font-size: 29px;
         color: #e0263f;
+    }
+    /*stan list*/
+    .lightstick{
+        margin-top: 50px;
+        width: 25%;
+        aspect-ratio: 1 / 1;
+    }
+    .stan-main{
+        margin: 40px auto;
+        width: 95%;
+    }
+    .li-foto{
+        height: 70%;
+    }
+    .suff{
+        font-size: 25px;
     }
 
 }
@@ -202,9 +219,46 @@ input[type="checkbox"] {
     .line{
         width: 90%;
     }
+    /*stan list*/
+    .lightstick{
+        margin: 20px auto;
+        width: 80%;
+        aspect-ratio: 1 / 1;
+    }
+    .stan-main{
+        flex-direction: column;
+    }
+    .li-foto{
+        width: auto;
+        height: 350px;
+    }
+    .stan-listu{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        position: relative;
+        left: -10px;
+        justify-content: center;
+    }
+    .suff{
+        position: relative;
+        left: -20px;
+    }
+    .bottom-none{
+        padding-bottom: 5px;
+    }
+    .sub-title{
+        margin: 10px;
+    }
 
 }
 
+@media (max-width: 510px) {
+    .lightstick{
+        width: 90%;
+        height: 480px;
+    }
+}
 .malin{
     background-color: #c76893;
     padding: 2%;
@@ -319,4 +373,75 @@ footer{
 
 .blue-body{
     background-color: #c7dfe5;
+}
+
+.lightstick{
+    background-color: #da8caf;
+    border-radius: 16px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.stan-main{
+    display: flex;
+    align-items: center;
+    color: #e095e0;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: space-evenly;
+}
+
+.li-foto{
+    margin: auto;
+}
+
+.ults {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px #fff;
+}
+
+.lightstick.glow {
+    box-shadow: 0 0 12px #f164bb;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+h1{
+    text-align: center;
+    color: #c76893;
+}
+
+.sub-title{
+    font-size: 20px;
+    position: relative;
+    left: -50px;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
