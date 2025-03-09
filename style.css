@@ -202,7 +202,7 @@ input[type="checkbox"] {
         justify-content: center;
     }
     .btn{
-        width: 100%;
+        width: 90%;
         font-size: 29px;
     }
     .btn:hover{
