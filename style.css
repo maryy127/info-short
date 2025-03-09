@@ -217,7 +217,8 @@ input[type="checkbox"] {
         font-size: 40px;
     }
     .line{
-        width: 90%;
+        width: 100%;
+        flex-direction: column;
     }
     /*stan list*/
     .lightstick{
@@ -444,4 +445,5 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
