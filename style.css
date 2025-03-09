@@ -387,7 +387,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .stan-main{
