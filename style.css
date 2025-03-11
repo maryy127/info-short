@@ -7,10 +7,11 @@
     font-family: Spark;
     src: url(fonts/HelloSparkSans.ttf) format("opentype")
 }
-
+*{
+    transition: 0.9s;
+}
 body{
     font-family: Spark;
-    transition: 0.8s;
     margin: 0;
 }
 
