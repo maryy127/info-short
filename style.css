@@ -11,6 +11,7 @@
 body{
     font-family: Spark;
     transition: 0.8s;
+    margin: 0;
 }
 
 a{
