@@ -146,6 +146,7 @@ input[type="checkbox"] {
         margin-top: 50px;
         width: 25%;
         aspect-ratio: 1 / 1;
+        padding: 25px;
     }
     .stan-main{
         margin: 40px auto;
@@ -227,9 +228,10 @@ input[type="checkbox"] {
     }
     /*stan list*/
     .lightstick{
-        margin: 20px auto;
         width: 80%;
+        margin: 10px auto;
         aspect-ratio: 1 / 1;
+        padding: 10px;
     }
     .stan-main{
         flex-direction: column;
@@ -261,8 +263,11 @@ input[type="checkbox"] {
 
 @media (max-width: 510px) {
     .lightstick{
-        width: 90%;
-        height: 480px;
+        width: 85%;
+        height: 380px;
+    }
+    .li-foto{
+        height: 250px;
     }
 }
 .malin{
@@ -384,7 +389,6 @@ footer{
 .lightstick{
     background-color: #da8caf;
     border-radius: 16px;
-    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
